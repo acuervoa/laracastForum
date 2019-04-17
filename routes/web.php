@@ -22,3 +22,7 @@ Route::post('/threads', 'ThreadsController@store');
 Route::get('/threads/{thread}', 'ThreadsController@show');
 Route::post('/threads/{thread}/replies', 'RepliesController@store');
 
+Route::get('test', function()
+{
+
+});
